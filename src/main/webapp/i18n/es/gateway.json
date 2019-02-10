@@ -1,0 +1,24 @@
+{
+    "gatewaysApp": {
+        "gateway": {
+            "home": {
+                "title": "Gateways",
+                "createLabel": "Crear nuevo Gateway",
+                "createOrEditLabel": "Crear o editar Gateway"
+            },
+            "created": "Un nuevo Gateway ha sido creado con el identificador {{ param }}",
+            "updated": "Un Gateway ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Gateway ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Gateway {{ id }}?"
+            },
+            "detail": {
+                "title": "Gateway"
+            },
+            "serialNumber": "Serial Number",
+            "humanRadableName": "Human Radable Name",
+            "iPVFour": "I PV Four",
+            "peripheral": "Peripheral"
+        }
+    }
+}

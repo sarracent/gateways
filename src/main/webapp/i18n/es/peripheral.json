@@ -1,0 +1,25 @@
+{
+    "gatewaysApp": {
+        "peripheral": {
+            "home": {
+                "title": "Peripherals",
+                "createLabel": "Crear nuevo Peripheral",
+                "createOrEditLabel": "Crear o editar Peripheral"
+            },
+            "created": "Un nuevo Peripheral ha sido creado con el identificador {{ param }}",
+            "updated": "Un Peripheral ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Peripheral ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Peripheral {{ id }}?"
+            },
+            "detail": {
+                "title": "Peripheral"
+            },
+            "uID": "U ID",
+            "vendor": "Vendor",
+            "dateCreated": "Date Created",
+            "status": "Status",
+            "gateway": "Gateway"
+        }
+    }
+}

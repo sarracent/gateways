@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gateway">
+            <h2><span jhiTranslate="gatewaysApp.gateway.detail.title">Gateway</span> {{gateway.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="gatewaysApp.gateway.serialNumber">Serial Number</span></dt>
+                <dd>
+                    <span>{{gateway.serialNumber}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewaysApp.gateway.humanRadableName">Human Radable Name</span></dt>
+                <dd>
+                    <span>{{gateway.humanRadableName}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewaysApp.gateway.iPVFour">I PV Four</span></dt>
+                <dd>
+                    <span>{{gateway.iPVFour}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gateway', gateway.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

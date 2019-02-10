@@ -1,0 +1,41 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "gateway",
+            "otherEntityName": "gateway",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "serialNumber"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "uID",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "vendor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateCreated",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Status",
+            "fieldValues": "ONLINE,OFFLINE"
+        }
+    ],
+    "changelogDate": "20190210152254",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "peripheral",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "peripheral",
+            "otherEntityName": "peripheral",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "gateway"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "serialNumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "humanRadableName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iPVFour",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "pattern"
+            ],
+            "fieldValidateRulesPattern": "^(?:[0-9]{1,3}.){3}[0-9]{1,3}$"
+        }
+    ],
+    "changelogDate": "20190210151352",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "gateway",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
