@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.musalasoft.com",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.6.0",
+    "applicationType": "monolith",
+    "baseName": "gateways",
+    "packageName": "com.musalasoft.com",
+    "packageFolder": "com/musalasoft/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjRlMmQxNjBjNjhlMDA4YzcyMjJkNGIwNjZmOGMzOTRjZDg2NGU2YTQ0MTNiOWVkMWNmMzYyZTQ1YjRhNzdiNTZmMjk5MmVjYTEyMjc3ZDhmNzZkZTE0OTU2NzRjOGM1YTMzOTM1YWFkODBmMTIzNzZmODNjMDk2ODUyOTQxMjU=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ]
+  }
+}
